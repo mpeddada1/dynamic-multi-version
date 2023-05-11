@@ -1,0 +1,45 @@
+[
+{
+  "name":"com.example.HelloWorldTest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"testHello","parameterTypes":[] }
+  ]
+},
+{
+  "name":"java.lang.Object",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.security.SecureRandomParameters"
+},
+{
+  "name":"org.apache.maven.surefire.junitplatform.JUnitPlatformProvider",
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.maven.surefire.api.provider.ProviderParameters"] }]
+},
+{
+  "name":"org.junit.platform.launcher.LauncherSession",
+  "methods":[{"name":"getLauncher","parameterTypes":[] }]
+},
+{
+  "name":"org.junit.platform.launcher.core.LauncherFactory",
+  "methods":[{"name":"openSession","parameterTypes":[] }]
+},
+{
+  "name":"org.junit.runner.Description",
+  "fields":[{"name":"fUniqueId"}]
+},
+{
+  "name":"sun.security.provider.NativePRNG",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]
